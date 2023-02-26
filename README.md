@@ -4,7 +4,7 @@ Este projeto representa um site de noticias ficticio com uma leve responsibilida
 
 ## Acesso à Pagina
 
-- Link:
+- Link: https://jsrwell.github.io/projeto-noticias-cidade/
 
 ## Tecnologias
 
