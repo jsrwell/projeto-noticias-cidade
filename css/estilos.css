@@ -1,0 +1,255 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #fff url(../imagens/fundo.png) repeat-x;
+}
+
+#container{
+	width: 750px;
+	margin: 0 auto;
+}
+
+#cabecalho {
+	height: 150px;
+	padding-top: 25px;
+	background: url(../imagens/detalhe-topo.png) no-repeat right top;
+}
+
+#logo {
+	height: 66px;
+	width: 152px;
+	background: url(../imagens/logo.png) no-repeat left top;
+	text-indent: -3000px;
+
+}
+
+/************** LINKS E LISTAS GERAIS **************/
+
+a:link, a:visited {
+	color: #b10333;
+	padding: 2px;
+}
+
+a:hover {
+	color: #e50040;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/************** BARRA DE NAVEGAÇÃO **************/
+
+#cabecalho ul {
+	margin-top: 30px;
+	background: #b10333;
+	float: left;
+}
+
+#cabecalho ul li {
+	float: left;
+}
+
+#cabecalho ul a {
+	font-size: 0.9em;
+	display: block;
+	padding: 0.5em 1.5em;
+	line-height: 2.1em;
+	text-decoration: none;
+	color: #fff;
+	background: url(../imagens/divisor.png) no-repeat left center;
+}
+
+#cabecalho ul .primeiro a {
+	background: none;
+}
+
+#cabecalho ul a:hover {
+	color: #69001d;
+}
+
+ul.home a#home,
+ul.brasil a#brasil,
+ul.internacional a#internacional,
+ul.economia a#economia,
+ul.saude a#saude,
+ul.ciencia a#ciencia,
+ul.fotos a#fotos {
+	color: #fff;
+	background: #de003e;
+	cursor: text;
+}
+
+/************** CONTEÚDO COLUNAS **************/
+
+#conteudo {
+	margin-top: 60px;
+	background: #f5f5f5;
+}
+
+.tree #principal{
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 195px;
+}
+
+.tree #secundario{
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 15px;
+}
+
+.tree #lateral{
+	width: 180px;
+	float: left;
+	margin: 0 0 20px -750px;
+}
+
+.two #lateral{
+	width: 180px;
+	float: left;
+}
+
+.two #principal {
+	width: 555px;
+	float: right;
+}
+
+.one #principal {
+	width: 750px;
+	margin: 0 0 20px 0;
+}
+
+
+
+
+
+/************** CAIXAS **************/
+
+.caixa{
+	margin: 10px 0;
+	padding: 5px;
+	background: #f3f3f3 url(../imagens/fundo-caixa.png);
+}
+
+.caixa-conteudo {
+	background: #fff;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+h2 {
+	font-size: 1em;
+	background: #294c71;
+	color: #fff;
+	padding: 5px;
+}
+
+h3 {
+	text-transform: uppercase;
+	display: inline;
+	font-size: 0.8em;
+	padding: 3px;
+}
+
+.titulos h3 {
+	background: #b10333;
+	color: #fff;
+}
+
+.entrevista h3 {
+	background: #de003e;
+}
+
+/************** FORMATAÇÃO MUNDO **************/
+
+#lista-noticias li {
+	padding: 2px;
+	border-bottom: 1px solid #ccc; 
+	height: 62px;
+}
+
+#lista-noticias li a img {
+	float: left;
+	margin: 5px;
+}
+
+#lista-noticias li a {
+	text-decoration: none;
+}
+
+#lista-noticias li a h3 {
+	font-size: 0.8em;
+	padding: 0;
+}
+
+#lista-noticias li a p {
+	font-size: 0.7em;
+	color: #000;
+}
+
+#lista-noticias li:hover {
+	background: #eee;
+	cursor: pointer;
+}
+
+/************** FORMATAÇÃO IMAGEM **************/
+
+img.imagem {
+	width: 98%;
+	border: 3px solid #dfdfdf;
+}
+
+/************** LATERAL **************/
+
+#entrevistados a{
+	font-size: 0.9em;
+	padding: 3px;
+	display: block;
+	line-height: 30px;
+	color: #000;
+	text-decoration: none;
+	border-bottom: 1px solid #f3f3f3;
+}
+
+#entrevistados a:hover{
+	padding-left: 20px;
+	background: url(../imagens/marcador.png) no-repeat left center;
+	color: #a1a1a1;
+}
+
+label {
+	display: block; 
+	cursor: pointer;
+}
+
+input {
+	padding: 5px;
+	width: 125px;
+	font-size: 0.9em;
+	background-color: #fff;
+}
+
+input.submit {
+	width: 80px;
+	color: #fff;
+	background-color: #b10333;
+	border: 2px solid #870529;
+}
+
+/************** RODAPE **************/
+
+#rodape{
+	clear: both;
+	padding: 20px 0;
+	margin: 5px auto 0 auto;
+	background-color: #b10333;
+	color: white;
+	text-align: center;
+}
